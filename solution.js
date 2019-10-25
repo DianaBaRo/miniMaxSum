@@ -14,7 +14,6 @@ function miniMaxSum(arr) {
     if ( maxIndex !== i ) {
       minResult += arr[i];
     }
-    console.log( minResult, maxResult );
   }
-
+  console.log( minResult, maxResult );
 }
